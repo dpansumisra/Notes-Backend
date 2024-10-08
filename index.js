@@ -13,7 +13,7 @@ app.use(cors())
 app.use(express.json())
 
 
-mongoose.connect("mongodb+srv://dpansumisra:deepanshu@cluster0.olcse.mongodb.net/notescrud?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect(`mongodb+srv://dpansumisra:${password}@cluster0.olcse.mongodb.net/notescrud?retryWrites=true&w=majority&appName=Cluster0`)
 .then(()=>console.log("database connect hain")).catch((error)=>console.log(error.message))
 
 app.get("/get", (req, res)=>{
