@@ -23,7 +23,7 @@ Welcome to the *Notes Application*! 📝 This application allows users to create
 ## ***API Endpoints***
 - **GET**  ```/get```: Retrieve all notes.
 - **POST** ```/add```: Add a new note.
-- **PUT** ```/update/``:id: Update an existing note by ID.
+- **PUT**  ```/update/```:id: Update an existing note by ID.
 - **DELETE** ```/delete/:id```: Delete a note by ID.
 ## It will look like this
 Here’s a quick look 👀 at how the **Notes** App looks in action:
